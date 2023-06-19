@@ -28,10 +28,10 @@ Ejecuta el siguiente comando en la línea de comandos dentro de la carpeta de tu
 - node index.js
 - Verás un mensaje que indica que el servidor GraphQL está listo en una URL, por ejemplo: Servidor GraphQL listo en http://localhost:4000/.
 
-5. Probando el servidor:
+5.- Probando el servidor:
 
 - Abre tu navegador web y visita la URL proporcionada por el servidor (por ejemplo, http://localhost:4000/).
 - Ahora puedes enviar consultas GraphQL al servidor. Por ejemplo, puedes usar la siguiente consulta en la barra de consultas en la interfaz de GraphQL:
-query {
+- query {
   hello
 }
