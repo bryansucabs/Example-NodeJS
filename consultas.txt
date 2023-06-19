@@ -1,0 +1,55 @@
+---------------
+
+query{
+  allPersons {
+    nombre 
+    telefono
+    calle
+    ciudad
+    id
+  }
+}
+
+---------------
+
+query{
+  findPerson( nombre: "Esteban"){
+    telefono
+    id
+    calle
+  }
+}
+
+---------------
+{
+  "data": {
+    "personCount": 3
+  }
+}
+
+---------------
+
+mutation{
+  editNumber(nombre: "Esteban",telefono:"123123") 
+  {
+    nombre
+  }
+}
+
+---------------
+
+mutation{
+  addPerson(
+    nombre: "Juan"
+    telefono: "4545"
+    calle: "bolivar"
+    ciudad: "Cuzco"
+
+  ){
+    nombre
+    telefono
+    calle 
+    ciudad
+    id
+  }
+}
