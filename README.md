@@ -32,6 +32,15 @@ Ejecuta el siguiente comando en la línea de comandos dentro de la carpeta de tu
 
 - Abre tu navegador web y visita la URL proporcionada por el servidor (por ejemplo, http://localhost:4000/).
 - Ahora puedes enviar consultas GraphQL al servidor. Por ejemplo, puedes usar la siguiente consulta en la barra de consultas en la interfaz de GraphQL:
-- query {
-  hello
+- query{
+  allPersons {
+    nombre 
+    telefono
+    calle
+    ciudad
+    id
+  }
 }
+- Deberia salir de ejemplo la siguiente imagen.
+![image](https://github.com/bryansucabs/GraphQL/assets/103225730/062186b0-2380-4e68-8bee-146296751d23)
+
