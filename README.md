@@ -41,6 +41,10 @@ Ejecuta el siguiente comando en la línea de comandos dentro de la carpeta de tu
     id
   }
 }
+
 - Deberia salir de ejemplo la siguiente imagen.
+
 ![image](https://github.com/bryansucabs/GraphQL/assets/103225730/062186b0-2380-4e68-8bee-146296751d23)
 
+6.- Otras consultas:
+- Revisar el archivo consultas.txt, donde se podra visualizar otro tipo de consultas con query y mutation
